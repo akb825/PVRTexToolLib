@@ -163,7 +163,7 @@ namespace pvrtexlib
 			{
 				PVRTexLib_DestroyTextureHeader(m_hTextureHeader);
 				m_hTextureHeader = nullptr;
-			}			
+			}
 		}
 
 		/*!***********************************************************************
@@ -971,7 +971,7 @@ namespace pvrtexlib
 			}
 			else
 			{
-				borderDepth = borderHeight = borderDepth = 0U;
+				borderWidth = borderHeight = borderDepth = 0U;
 			}
 		}
 
@@ -1719,7 +1719,7 @@ namespace pvrtexlib
 		{
 			if (m_hTexture)
 			{
-				
+
 				PVRTexLib_TranscoderOptions options;
 				options.sizeofStruct = sizeof(PVRTexLib_TranscoderOptions);
 				options.pixelFormat = pixelFormat;
