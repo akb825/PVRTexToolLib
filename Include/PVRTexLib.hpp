@@ -971,7 +971,7 @@ namespace pvrtexlib
 			}
 			else
 			{
-				borderDepth = borderHeight = borderDepth = 0U;
+				borderDepth = borderHeight = 0U;
 			}
 		}
 
